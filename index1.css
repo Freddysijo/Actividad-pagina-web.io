@@ -1,0 +1,127 @@
+body {
+  
+  font-family: arial,helvetica,sans-serif;
+  margin:100px;
+  float:center;
+ 
+ 
+}
+.header {
+    background-color: #fff;
+    text-align:center;
+    margin:40px;
+   
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 16;
+    padding: 11;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color:  #005883;
+    text-align: center;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#F0B429;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    z-index: 9;
+}
+
+.dropdown-content a {
+    color: #005883;
+    padding: 12px 12px;
+    text-decoration: none;
+    display: block;
+    text-align:right;
+}
+
+.dropdown-content a:hover {background-color:#F0B429}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+section div {
+    background-color:#fff;
+    width: 300px;
+    border: 10px solid#ccc;
+    padding: 10px;
+    margin: 5px;
+    float:center;
+}
+.div {
+    width: 310px;
+    height: 500px;     
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+     border-radius: 5px;
+     float:right; 
+}
+
+
+.div2 {
+    width: 300px;
+    height: 500px;    
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+     border-radius: 5px;
+     float:center; 
+}
+.div3 {
+    width: 340px;
+    height: 300px;    
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+     border-radius: 5px;
+     float:right; 
+}
+.div4 {
+    width: 340px;
+    height: 300px;    
+    padding: 50px;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+     border-radius: 5px;
+     float:center; 
+}
+
+
+
+
+
+
+.footer {
+    background-color:#F0B429;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+}
+
+
